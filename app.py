@@ -7,7 +7,7 @@ def home():
     return jsonify({
         "app": "Flask CI/CD Microservice",
         "status": "healthy",
-        "version": "2.0.0 (Automated CI/CD Live)"
+        "version": "2.0.0 (Automated CI/CD Live)",
         "pipeline": "GitHub Actions Automated CI/CD"
     })
 
